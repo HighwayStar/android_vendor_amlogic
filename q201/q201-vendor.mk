@@ -19,10 +19,17 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/q201/proprietary/bin/hdmi_cec:system/bin/hdmi_cec \
     vendor/amlogic/q201/proprietary/bin/systemcontrol:system/bin/systemcontrol \
     vendor/amlogic/q201/proprietary/etc/mesondisplay.cfg:system/etc/mesondisplay.cfg \
+    vendor/amlogic/q201/proprietary/etc/wifi/6255/config.txt:system/etc/wifi/6255/config.txt \
+    vendor/amlogic/q201/proprietary/etc/wifi/6255/fw_bcm43455c0_ag.bin:system/etc/wifi/6255/fw_bcm43455c0_ag.bin \
+    vendor/amlogic/q201/proprietary/etc/wifi/6255/fw_bcm43455c0_ag_apsta.bin:system/etc/wifi/6255/fw_bcm43455c0_ag_apsta.bin \
+    vendor/amlogic/q201/proprietary/etc/wifi/6255/fw_bcm43455c0_ag_p2p.bin:system/etc/wifi/6255/fw_bcm43455c0_ag_p2p.bin \
+    vendor/amlogic/q201/proprietary/etc/wifi/6255/nvram.txt:system/etc/wifi/6255/nvram.txt \
     vendor/amlogic/q201/proprietary/lib/amplayer/libbluray_mod.so:system/lib/amplayer/libbluray_mod.so \
     vendor/amlogic/q201/proprietary/lib/amplayer/libcurl_mod.so:system/lib/amplayer/libcurl_mod.so \
     vendor/amlogic/q201/proprietary/lib/amplayer/libdash_mod.so:system/lib/amplayer/libdash_mod.so \
     vendor/amlogic/q201/proprietary/lib/amplayer/libvhls_mod.so:system/lib/amplayer/libvhls_mod.so \
+    vendor/amlogic/q201/proprietary/lib/cfg80211.ko:system/lib/cfg80211.ko \
+    vendor/amlogic/q201/proprietary/lib/dhd.ko:system/lib/dhd.ko \
     vendor/amlogic/q201/proprietary/lib/dwc3.ko:system/lib/dwc3.ko \
     vendor/amlogic/q201/proprietary/lib/dwc_otg.ko:system/lib/dwc_otg.ko \
     vendor/amlogic/q201/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
@@ -95,4 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/q201/proprietary/lib64/libomx_worker_peer_alt.so:system/lib64/libomx_worker_peer_alt.so \
     vendor/amlogic/q201/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/amlogic/q201/proprietary/lib64/libsystemcontrolservice.so:system/lib64/libsystemcontrolservice.so \
-    vendor/amlogic/q201/proprietary/lib64/libthreadworker_alt.so:system/lib64/libthreadworker_alt.so
+    vendor/amlogic/q201/proprietary/lib64/libthreadworker_alt.so:system/lib64/libthreadworker_alt.so \
+    vendor/amlogic/q201/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/amlogic/q201/proprietary/vendor/lib64/libbt-vendor.so:system/vendor/lib64/libbt-vendor.so
